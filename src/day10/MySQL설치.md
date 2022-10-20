@@ -23,9 +23,7 @@ https://cmder.app/
 ### 4. Vagrantfile 만들기 (Vagrantfile 존재시 생략 5번으로 가세요)
 4-1 구글 vagrant cloud 사이트 검색
 https://app.vagrantup.com/   
-
 4-2 필요한 이미지 검색  
-
 4-3 cmder 실행   
 4-4 vagrant file 만들기
 vagrant init 이미지명 
@@ -51,6 +49,13 @@ vagrant up
 ```
 vagrant ssh
 ```
+
+### 8. HeidiSQL 설치
+8-1 HeidiSQL 설치   
+https://www.heidisql.com/download.php?download=installer   
+
+8-2 Installer, 32/64 bit combined  클릭! 다운로드!  
+
 
 
 
