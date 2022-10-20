@@ -326,7 +326,7 @@ from emp
 where deptno in(10,20)
 ```
 
-**<2> BETWEEN A AND B (A와 B 사이의 데이터를 얻어온다)	**
+**<2> BETWEEN A AND B (A와 B 사이의 데이터를 얻어온다)**   
 - 급여가 1000과 2000 사이인 사원들의 사원번호, 이름, 급여를 출력하세요
 ```
 select empno,ename,sal
