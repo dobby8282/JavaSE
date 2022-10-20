@@ -26,7 +26,7 @@ https://app.vagrantup.com/
 
 4-2 필요한 이미지 검색  
 
-4-3 cmder 실행 
+4-3 cmder 실행   
 4-4 vagrant file 만들기
 vagrant init 이미지명 
 
