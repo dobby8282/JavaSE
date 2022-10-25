@@ -42,6 +42,8 @@ public class MainClass04 {
 				.map(n -> n * n)
 				.forEach(e -> System.out.println(e));
 
+		
+		
 		List.of(23, 43, 34, 45, 36, 48).stream()
 				.filter(new EvenNumberPredicate())
 				.map(new NumberSquareMapper())
@@ -49,3 +51,22 @@ public class MainClass04 {
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
