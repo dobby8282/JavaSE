@@ -33,7 +33,7 @@ public class MainClass04 {
 					+ "values('JONES', 'MANAGER', 300, 30)");
 			pstmt.executeUpdate();
 
-			isSuccess = true;
+			isSuccess = false;
 
 		} catch (Exception e) {
 			
