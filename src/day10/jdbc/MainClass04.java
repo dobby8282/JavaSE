@@ -28,16 +28,15 @@ public class MainClass04 {
 			pstmt = con.prepareStatement("insert into bonus(ENAME,JOB,SAL,COMM) "
 					+ "values('ALLEN', 'SALESMAN', 200, 20)");
 			pstmt.executeUpdate();
-
+			
 			pstmt = con.prepareStatement("insert into bonus(ENAME,JOB,SAL,COMM) "
 					+ "values('JONES', 'MANAGER', 300, 30)");
 			pstmt.executeUpdate();
-
-			isSuccess = false;
-
-		} catch (Exception e) {
 			
-			e.printStackTrace();
+			isSuccess = true;
+			
+		} catch (Exception e) {
+			isSuccess = false;
 		} finally {
 			try {
 				if (isSuccess) {
