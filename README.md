@@ -63,4 +63,44 @@
      | |  Marry Christmas~*
   ```
   
+  - 생성자(Construtor) - 클래스 명과 같다. 객체가 생성될 때 한번만 실행된다. 
+  	- 멤버필드 초기화용으로 자주 사용.
+  	- 메서드와 차이점은 리턴이 없다.
+  	- 오버로딩이 가능하다.
+  	  
+  - 클래스 상속 - 부모클래스의 멤버를 자식클래스에서 사용 또는 재정의 가능.
+  	- 예약어 extends
+  	- super 예약어로 부모클래스 접근 가능
+  	- 부모 메서드 재정의 오버라이딩
+  ```
+  class 자식클래스명 extends 부모클래스명 {   
+      
+  }
+  ```
+  - 인터페이스 상속 - 클래스 상속과 같지만 예약어가 implements 이다.
+  	- 추상메소드와 상수로만 구성되어 있다.
+  	- 여러개 상속이 가능하다.
+  	- 추상메소드는 반듯이 오버라이딩 해줘야 한다.
+  ```
+  class 자식클래스명 implements 부모클래스명 {   
+      
+  }
+  ```
+  - 다형성(polymorphism) - 하나의 객체가 여러가지 타입을 가질 수 있는 것을 의미한다.
+  	
+  - Collection  - 배열성 데이터 다루는 객체 (util 패키지)
+  	- list
+  	- set
+  	- Map
+  - IO - InputStream OutputStream
+  - Socket
+  - JDBC - JAVA DBMS 연결 -> 프레임웍 변화 ibatis or mybatis
+  
+  
+  
+  
+  
+  
+  
+  
   
