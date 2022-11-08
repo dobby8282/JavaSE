@@ -55,7 +55,6 @@ public class WekaMainClass {
 			}
 		}
 		
-		
 		if(algorithm.equals("knn")) {	// 모델(알고리즘) 선택
 			IBk ibk = new IBk();	// knn 모델 객체생성
 			Classifier cls = ibk;	// 학습인터페이스 형변환(다형성)
@@ -69,7 +68,6 @@ public class WekaMainClass {
 			}
 		}
 		
-		
 		if(algorithm.equals("mlp")) {	// 모델(알고리즘) 선택
 			MultilayerPerceptron mlp = new MultilayerPerceptron();	// knn 모델 객체생성
 			Classifier cls = mlp;	// 학습인터페이스 형변환(다형성)
@@ -82,14 +80,7 @@ public class WekaMainClass {
 				System.out.println("prediction : " + label);	// 예측 결과 출력!!
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+					
 	}
 
 }
