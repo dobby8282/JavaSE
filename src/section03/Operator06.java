@@ -21,11 +21,8 @@ public class Operator06 {
 		//  3 : 0 0011
 		// ~3 : 1 1100
 		// 컴퓨터는 음수를 2의 보수로 생각한다.
-		// 다음시간에 2의 보수 설명하기!!!!
 		System.out.println("~num1: " + ~num1);
-		
 	}
-
 }
 
 
