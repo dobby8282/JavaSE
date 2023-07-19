@@ -9,7 +9,7 @@ package section04;
  * 
  */
 
-public class Conditianal02 {
+public class Conditional02 {
 	public static void main(String[] args) {
 		int num = 11;
 		
@@ -19,13 +19,11 @@ public class Conditianal02 {
 			System.out.println("num은 홀수 입니다.");
 		}
 		
-		
 		if(num % 2 == 0) 
 			System.out.println("num은 짝수 입니다.");
 		else 
 			System.out.println("num은 홀수 입니다.");
 		
-
 	}
 }
 
