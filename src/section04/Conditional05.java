@@ -1,6 +1,6 @@
 package section04;
 
-public class Contional05 {
+public class Conditional05 {
 	public static void main(String[] args) {
 		/*
 		 * 환불 상태코드 
