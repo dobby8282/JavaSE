@@ -41,6 +41,8 @@ package section07;
 
 public class OOP01 {
 	public static void main(String[] args) {
+		int num = 10;
+		
 		Car car1 = new Car();
 		Car car2 = new Car();
 		
@@ -55,8 +57,6 @@ public class OOP01 {
 		
 		car1.autopilot();
 		car1.drive();
-		
-		
 		
 	}
 
