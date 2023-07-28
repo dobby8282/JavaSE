@@ -7,3 +7,13 @@ public class Constructor04 {
 		hc.getInfo();
 	}
 }
+
+
+
+
+
+
+
+
+
+
