@@ -30,7 +30,6 @@ public class Method05 {
 		System.out.println("name: " + name);
 		System.out.println("age: " + age);
 		
-		
 	}
 
 }
