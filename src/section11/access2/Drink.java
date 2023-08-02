@@ -15,5 +15,16 @@ public class Drink {
 		System.out.println("discountRate: " + discountRate);
 	}
 	
+	public void getDiscountRate() {
+		if(discountRate == 0.333) {
+			System.out.println("2+1 할인 행사중 입니다.");
+		} else if (discountRate == 0.5) {
+			System.out.println("1+1 할인 행사중 입니다.");
+		} else {
+			System.out.println("행사 상품이 아닙니다.");
+		}
+		
+	}
+	
 
 }
