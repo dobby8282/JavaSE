@@ -8,7 +8,7 @@ import section12.access2.Playable;
 /*
  * 인터페이스(interface)
  * 	추상화된 타입을 정의 하는데 사용되는 개념
- * 	추상메서드와 상수로만 이루어져 있다.
+ * 	추상메서드와 static 상수로만 이루어져 있다.
  * 	다중 상속이 가능하다.
  * 	'implements' 키워드로 상속 한다.
  * 
@@ -18,6 +18,8 @@ import section12.access2.Playable;
 
 public class InterfaceClass01 {
 	public static void main(String[] args) {
+		System.out.println(Cat.PAW);
+		
 		PersianCat pCat = new PersianCat();
 		pCat.eat();
 		

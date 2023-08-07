@@ -5,7 +5,8 @@ package section02;
  * 
  * System.out.println() : 괄호안 내용 출력 후 행 바꿈
  * System.out.print() : 괄호안 내용 출력 행 바꿈 X
- * System.out.printf() : 문자열 서식 문자를 이용해 형식화된 내용 출력 행 바꿈 X
+ * System.out.printf() : 문자열 서식 문자를 이용해 형식화된 
+ * 내용 출력 행 바꿈 X
  * 
  * 서식문자
  * 		%d : 정수(10진수)
