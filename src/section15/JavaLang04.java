@@ -34,11 +34,9 @@ public class JavaLang04 {
 
 		System.out.println(sBuilder);
 		
-		
 	}
 
 }
-
 
 
 
