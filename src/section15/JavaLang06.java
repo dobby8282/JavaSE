@@ -46,10 +46,10 @@ public class JavaLang06 {
 		System.out.println("최소값: " + minValue);
 		System.out.println("최대값: " + maxValue);
 		
-		
 		System.out.println("문자입니까? " + Character.isLetter('A'));
 		System.out.println("숫자입니까? " + Character.isDigit('5'));
 		System.out.println("공백입니까? " + Character.isWhitespace(' '));
+		
 		
 	}
 }
