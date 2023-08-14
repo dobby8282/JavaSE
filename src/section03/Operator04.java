@@ -26,7 +26,7 @@ public class Operator04 {
 			System.out.println("할인 미적용 상품입니다.");
 		}
 		
-		result = !(true && true && true) || false;
+		result = true && true && true || false;
 		System.out.println(result);
 		
 		
