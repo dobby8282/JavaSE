@@ -1,5 +1,12 @@
 package section18;
 
+/*
+ * synchronized 키워드
+ * 	멀티 스레드에서 동기화 시켜주는 예약어
+ * 
+ */
+
+
 import section18.access2.Brother;
 import section18.access2.Sister;
 import section18.access2.Wallet;

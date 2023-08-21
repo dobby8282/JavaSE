@@ -8,12 +8,25 @@ public class Wallet {
 		this.totalMoney = 10000;
 	}
 	
+//	public synchronized int getMoney() {
+//		if(totalMoney == 0) {
+//			return 0;
+//		}
+//		
+//		totalMoney -= 1;
+//		
+//		return 1;
+//	}
+	
+	
 	public int getMoney() {
 		if(totalMoney == 0) {
 			return 0;
 		}
 		
-		totalMoney -= 1;
+		synchronized(this) {
+			totalMoney -= 1;
+		}
 		
 		return 1;
 	}

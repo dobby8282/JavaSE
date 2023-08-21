@@ -20,8 +20,7 @@ public class Thread01 {
 	public static void main(String[] args) {
 		System.out.println("메인 스레드 시작!");
 		
-		MyThread thread1 = new MyThread();
-		thread1.start();
+		new MyThread().start();
 		
 		System.out.println("메인 스레드 종료!");
 	}
