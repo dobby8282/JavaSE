@@ -3,6 +3,7 @@ package section19;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 
 /*
  * I/O(Input/Output)
@@ -12,10 +13,6 @@ import java.util.Calendar;
  * 
  * File Class
  * 	경로 정보를 받아 파일 또는 디렉토리 정보를 객체화
- * 
- * 
-
- * 
  * 
  * 
  */
@@ -30,6 +27,7 @@ public class IO01 {
 		
 		// Calendar 날짜관련 객체
 		Calendar c = Calendar.getInstance();
+		
 		
 		for(String temp : list) {
 			// temp 명의 디렉토리 또는 파일을 객체화

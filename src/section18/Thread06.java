@@ -4,9 +4,8 @@ public class Thread06 {
 	public static void main(String[] args) {
 		System.out.println("메인스레드 시작!");
 		
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
+		new Thread(() -> {
+			
 				System.out.println("아무개 스레드 시작!");
 				
 				try {
@@ -14,7 +13,6 @@ public class Thread06 {
 				} catch (Exception e) {
 				}
 				System.out.println("아무개 스레드 종료!");				
-			}
 		}).start();
 		
 		System.out.println("메인스레드 종료!");
