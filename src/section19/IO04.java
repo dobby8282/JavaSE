@@ -26,24 +26,24 @@ public class IO04 {
 			// ./upload/hello.txt 파일읽을수 있는 객체 생성
 			fis = new FileInputStream("./upload/hello.txt");
 			
-			
-			// upload2 디렉토리생성
+//			// upload2 디렉토리생성
 			File f1 = new File("./upload2");
 			if(f1.mkdir()) {
 				System.out.println("upload2 디렉토리가 생성되었습니다.");
 			}
-			
-			// hello2.txt 파일생성
-			File f2 = new File(f1, "hello2.txt");
-			if(f2.createNewFile()) {
-				System.out.println("hello2.txt 파일이 생성되었습니다.");
-			}
+//			
+//			// hello2.txt 파일생성
+//			File f2 = new File(f1, "hello2.txt");
+//			if(f2.createNewFile()) {
+//				System.out.println("hello2.txt 파일이 생성되었습니다.");
+//			}
 			
 			// hello2.txt 에 쓰기 준비 객체생성
-			fos = new FileOutputStream(f2);
+			// 파일이 존재하지 않으면 자동으로 생성해준다. (폴더생성 X)
+			fos = new FileOutputStream("./upload2/hello2.txt");
 			
 			int readByteCnt = 0;
-			byte[] b = new byte[1024];
+			byte[] b = new byte[1024];	
 			
 			while((readByteCnt = fis.read(b)) != -1) {
 				fos.write(b, 0, readByteCnt);
