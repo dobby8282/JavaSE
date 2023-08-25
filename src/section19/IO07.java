@@ -26,7 +26,6 @@ public class IO07 {
 				
 				PrintStream ps = new PrintStream(bos, true);
 			) {
-
 			
 			int readByteCnt = 0;
 			byte[] b = new byte[1024];
