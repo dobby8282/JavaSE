@@ -21,15 +21,15 @@ public class JDBC03 {
 			// 3. 쿼리 작성
 			StringBuffer sql = new StringBuffer();
 			sql.append("INSERT INTO sales_reps(id, name, salary, commission_pct) ");
-			sql.append("VALUES(1, '피카츄', 200, 0.2)");
+			sql.append("VALUES(?, ?, ?, ?)");
 			
 			// 4. PreaparedStatement 객체 생성
 			pstmt = conn.prepareStatement(sql.toString());
 			
-//			pstmt.setString(1, "1");
-//			pstmt.setString(2, "피카츄");
-//			pstmt.setString(3, "200");
-//			pstmt.setString(4, "0.2");
+			pstmt.setInt(1, 1);
+			pstmt.setString(2, "피카츄");
+			pstmt.setDouble(3, 200);
+			pstmt.setDouble(4, 0.2);
 			
 			// 5. 쿼리 수행
 			int result = pstmt.executeUpdate();
