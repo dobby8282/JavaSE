@@ -19,16 +19,16 @@ public class AbstractClass01 {
 	
 	public static void main(String[] args) {
 		// 추상클래스는 객체생성 불가!!
-		// Alcohol alcol = new Alcohol();
+//		 Alcohol alcol = new Alcohol();
 		
-		Alcohol jinro = new Jinro();
-		jinro.name = "진로";
-		jinro.proof = 16;
-		jinro.price = 5000;
-		
-		jinro.setTaste("복숭아");
-		
-		jinro.getInfo();
+//		Alcohol jinro = new Jinro();
+//		jinro.name = "진로";
+//		jinro.proof = 16;
+//		jinro.price = 5000;
+//		
+//		jinro.setTaste("복숭아");
+//		
+//		jinro.getInfo();
 		
 	}
 
