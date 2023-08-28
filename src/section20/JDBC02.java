@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 public class JDBC02 {
 	public static void main(String[] args) {
 		Connection conn = null;
+		// Statement 사용하지 않기! PreparedStatement 사용하기!
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		
@@ -18,7 +19,6 @@ public class JDBC02 {
 			// 2. 데이터베이스 연결
 			String url = "jdbc:oracle:thin:@localhost:21521:xe";
 			conn = DriverManager.getConnection(url, "hr", "hr");
-
 			
 			// 3. 쿼리 작성
 			StringBuffer sql = new StringBuffer();
@@ -26,7 +26,7 @@ public class JDBC02 {
 			sql.append("FROM employees ");
 			sql.append("WHERE salary >= ? ");
 			sql.append("AND job_id LIKE '%'||?||'%' ");
-			sql.append("ORDER BY salary DESC ");
+			sql.append("ORDER BY salary ASC ");
 			
 			// 4. PreaparedStatement 객체 생성
 			pstmt = conn.prepareStatement(sql.toString());
