@@ -48,7 +48,7 @@ public class JDBC02 {
 			}
 			
 		} catch (Exception e) {
-			
+			e.printStackTrace();
 		} finally {
 			try {
 				if(rs != null) rs.close();
