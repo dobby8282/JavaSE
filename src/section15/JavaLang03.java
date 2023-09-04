@@ -26,7 +26,7 @@ public class JavaLang03 {
 		System.out.println("str2: " +System.identityHashCode(str2));
 		System.out.println("str3: " +System.identityHashCode(str3));
 		
-		str2 += "d";
+//		str2 += "d";
 		
 		System.out.println("str1: " +System.identityHashCode(str1));
 		System.out.println("str2: " +System.identityHashCode(str2));

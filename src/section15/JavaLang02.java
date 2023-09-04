@@ -44,7 +44,6 @@ public class JavaLang02 {
 		System.out.println(soccer2);
 		System.out.println(soccer3);
 		
-		
 	}
 
 }

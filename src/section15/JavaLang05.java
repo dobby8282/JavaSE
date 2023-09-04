@@ -35,7 +35,6 @@ public class JavaLang05 {
 		// 문자형 타입 선언
 		Character ch = Character.valueOf('A');
 		
-		
 	}
 
 }
