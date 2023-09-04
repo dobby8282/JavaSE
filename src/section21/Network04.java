@@ -6,6 +6,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+// https://mvnrepository.com/artifact/org.jsoup/jsoup/1.16.1
+
 public class Network04 {
 	public static void main(String[] args) throws IOException {
 		String url = "https://music.bugs.co.kr/chart";
